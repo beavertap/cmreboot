@@ -639,6 +639,23 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 	icon_state = "light_3"
 	icon_tag = "light"
 
+/obj/structure/flora/jungle/vines/purple
+	name = "purple vines"
+	desc = "A mass of purple twisted vines."
+	icon = 'icons/effects/spacevines.dmi'
+	icon_state = "light_purple1"
+	icon_tag = "light"
+	variations = 3
+
+/obj/structure/flora/jungle/vines/purple_1
+	icon_state = "light_purple1"
+
+/obj/structure/flora/jungle/vines/purple_2
+	icon_state = "light_purple2"
+
+/obj/structure/flora/jungle/vines/purple_3
+	icon_state = "light_purple3"
+
 //heavy hide you
 /obj/structure/flora/jungle/vines/heavy
 	desc = "A thick, coiled mass of twisted vines."
@@ -650,6 +667,18 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 /obj/structure/flora/jungle/vines/heavy/New()
 	..()
 	icon_state = pick("heavy_1","heavy_2","heavy_3","heavy_4","heavy_5","heavy_6")
+
+/obj/structure/flora/jungle/vines/heavy/purple
+	desc = "A thick, coiled mass of purple twisted vines."
+	opacity = TRUE
+	icon_state = "heavy_purple6"
+	icon_tag = "heavy"
+	variations = 6
+
+/obj/structure/flora/jungle/vines/heavy/purple/New()
+	..()
+	icon_state = pick("heavy_purple1","heavy_purple2","heavy_purple3","heavy_purple4","heavy_purple5","heavy_purple6")
+
 
 /obj/structure/flora/jungle/thickbush
 	name = "dense vegetation"

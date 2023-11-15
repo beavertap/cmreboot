@@ -576,7 +576,15 @@ INITIALIZE_IMMEDIATE(/turf/closed/wall/indestructible/splashscreen)
 	walltype = WALL_SOLARIS_ROCK
 	hull = 1
 
+//HENGSHA EXOBIOLOGY WALLS//
 
+/turf/closed/wall/hengsha
+	name = "purple vegetation"
+	icon = 'icons/turf/walls/jungle_veg.dmi'
+	icon_state = "jungle_vegP"
+	desc = "Exceptionally dense purple vegetation that you can't see through."
+	walltype = WALL_JUNGLE_UPDATED
+	hull = 1
 
 //GREYBOX DEVELOPMENT WALLS
 

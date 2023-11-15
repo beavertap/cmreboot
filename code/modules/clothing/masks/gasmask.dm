@@ -153,3 +153,9 @@
 	desc = "The L7 Gasmask used by members of the three world empires royal marines commando."
 	icon_state = "rmc_mask"
 	flags_atom = NO_NAME_OVERRIDE|NO_SNOW_TYPE
+
+/obj/item/clothing/mask/gas/nbc
+	name = "GP-52-A NBC mask"
+	desc = "A face-covering mask with an inbuilt filter, protecting from nuclear, biological, and chemical contaminants."
+	icon_state = "nbc_mask"
+	item_state = "nbc_mask"

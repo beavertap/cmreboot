@@ -129,3 +129,17 @@
 	icon_state = "plaguedoctor"
 	item_state = "bio_suit"
 	flags_inv_hide = HIDEGLOVES|HIDEJUMPSUIT|HIDETAIL
+
+
+/obj/item/clothing/head/bio_hood/nbc
+	name = "NBC hood"
+	icon_state = "nbc_hood"
+	item_state = "nbc_hood"
+	desc = "A hood that protects the head from nuclear, biological, and chemical contaminants."
+
+/obj/item/clothing/suit/bio_suit/nbc
+	name = "NBC suit"
+	desc = "A suit that protects against nuclear, biological, and chemical contamination."
+	icon_state = "nbc_suit"
+	item_state = "nbc_suit"
+	slowdown = 0.7

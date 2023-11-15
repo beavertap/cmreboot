@@ -658,6 +658,10 @@
 
 
 
+/turf/open/gm/grass/purple
+	name = "purple grass"
+	icon = 'icons/turf/ground_map.dmi'
+	icon_state = "grass_purple"
 
 //ELEVATOR SHAFT-----------------------------------//
 /turf/open/gm/empty
